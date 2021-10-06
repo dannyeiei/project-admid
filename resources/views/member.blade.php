@@ -1,15 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
+
 <div class="container">
-  <h2 align="center">ข้อมูลสมาชิก</h2>
+<div class="card-header" align="center">ตารางข้อมูลสมาชิก</div>
   <table class="table">
     <thead>
       <tr>
-        <th scope="col">ID</th>
-        <th scope="col">NAME</th>
-        <th scope="col">E-MAIL</th>
-        <th scope="col">is_admin</th>
+        <th scope="col">รหัส</th>
+        <th scope="col">ชื่อสมาชิก</th>
+        <th scope="col">อีเมล</th>
+        <th scope="col">สถานะ</th>
       </tr>
     </thead>
     <tbody>

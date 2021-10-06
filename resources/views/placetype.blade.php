@@ -13,10 +13,10 @@
                 <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">ID</th>
-                            <th scope="col">NAME</th>
-                            <th scope="col">EDIT</th>
-                            <th scope="col">DELETE</th>
+                            <th scope="col">รหัส</th>
+                            <th scope="col">ชื่อประเภทสถานที่ท่องเที่ยว</th>
+                            <th scope="col">แก้ไข</th>
+                            <th scope="col">ลบ</th>
                             
                         </tr>
                     </thead>
@@ -26,10 +26,10 @@
                             <th>{{$row->id}}</th>
                             <td>{{$row->name}}</td>
                             <td>
-                                <a href="{{url('/type/edit/'.$row->id)}}" class="btn btn-success">edit</a>
+                                <a href="{{url('/type/edit/'.$row->id)}}" class="btn btn-success">แก้ไข</a>
                             </td>
                             <td>
-                            <a href="{{url('/type/delete/'.$row->id)}}" class="btn btn-danger" onclick="return confirm('คุณต้องการลบข้อมูล {{$row->name}} ?')">delete</a>
+                            <a href="{{url('/type/delete/'.$row->id)}}" class="btn btn-danger" onclick="return confirm('คุณต้องการลบข้อมูล {{$row->name}} หรือไม่?')">ลบ</a>
 
                             </td>
                         </tr>

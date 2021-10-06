@@ -107,53 +107,7 @@
             </div>
         </nav>
 
-        <body>
        
-            
-            <nav class="navbar navbar-expand-sm navbar-light" id="navcolor">
-                <br>
-                
-
-                <div class="container-fluid">
-                <div class="container">
-
-                    <ul class="navbar-nav">
-                        
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">หน้าแรก</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/member" class="nav-link">ข้อมูลสมาชิก</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/placetype" class="nav-link">ประเภทสถานที่ท่องเที่ยว</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/event" class="nav-link">เทศกาล/วันสำคัญ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/place" class="nav-link">สถานที่ท่องเที่ยว</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">การรีวิว</a>
-                        </li>
-                        <form action="" class="d-flex" id="right">
-                            <input type="search" class="form-control mr-sm-2" placeholder="ข้อมูลสถานที่ท่องเที่ยว ..." aria-label="ค้นหา" id="box">
-                            <button class="btn btn-light my-sm-0" type="submit" id="box2">ค้นหา
-
-                            </button>
-                        </form>
-                    </ul>
-
-                </div>
-
-
-            </nav>
-        </div>
-
-
-
-        </body>
 
         <main class="py-4">
             @yield('content')
